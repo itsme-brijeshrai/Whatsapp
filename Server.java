@@ -35,6 +35,12 @@ public class Server extends JFrame implements ActionListener{
         back1.setBounds(50,15,35,35);
         panel1.add(back1);
 
+        JLabel name = new JLabel("Brijesh");
+        name.setBounds(110,15,100,18);
+        name.setForeground(Color.WHITE);
+        name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
+        panel1.add(name);
+
         setSize(400,600);
         setLocation(200,100);
         getContentPane().setBackground(new Color(18, 140, 126));
