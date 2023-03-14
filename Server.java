@@ -41,6 +41,12 @@ public class Server extends JFrame implements ActionListener{
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
         panel1.add(name);
 
+        JLabel status = new JLabel("Active Now");
+        status.setBounds(110,35,100,18);
+        status.setForeground(Color.WHITE);
+        status.setFont(new Font("SAN_SERIF", Font.BOLD, 14));
+        panel1.add(status);
+
         setSize(400,600);
         setLocation(200,100);
         getContentPane().setBackground(new Color(18, 140, 126));
